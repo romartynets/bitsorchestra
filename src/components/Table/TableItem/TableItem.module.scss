@@ -1,0 +1,17 @@
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+.editIcon {
+    color:white;
+    &:visited {
+      color: inherit;
+    }
+    margin-right: 5px; 
+}
+
+.deleteIcon {
+  color:white;
+  cursor: pointer;
+}

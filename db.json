@@ -1,0 +1,74 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Things Fall Apart",
+      "author": "Chinua Achebe",
+      "category": "Action and Adventure",
+      "isbn": "9781841593272"
+    },
+    {
+      "id": 2,
+      "title": "Fairy tales",
+      "author": "Hans Christian Andersen",
+      "category": "Action and Adventure",
+      "isbn": "9780141329016"
+    },
+    {
+      "id": 3,
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "category": "Fantasy",
+      "isbn": "9783941234666"
+    },
+    {
+      "id": 4,
+      "title": "The Epic Of Gilgamesh",
+      "author": "Unknown",
+      "category": "Classics",
+      "isbn": "9783406642326"
+    },
+    {
+      "id": 5,
+      "title": "Invisible Man",
+      "author": "Ralph Ellison",
+      "category": "Historical Fiction",
+      "isbn": "9780078284021"
+    },
+    {
+      "id": 6,
+      "title": "Ficciones",
+      "author": "Jorge Luis Borges",
+      "category": "Short Stories",
+      "isbn": "9780245528798"
+    },
+    {
+      "id": 7,
+      "title": "Medea",
+      "author": "Euripides",
+      "category": "Classics",
+      "isbn": "9780413770301"
+    },
+    {
+      "id": 8,
+      "author": "Jane Austen",
+      "title": "Pride and Prejudice",
+      "category": "Historical Fiction",
+      "isbn": "9780140430721"
+    },
+    {
+      "id": 10,
+      "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
+      "author": "Samuel Beckett",
+      "category": "Suspense and Thrillers",
+      "isbn": "9780714503844"
+    },
+    {
+      "id": 11,
+      "title": "The Decameron",
+      "author": "Giovanni Boccaccio",
+      "category": "Comic Book or Graphic Novel",
+      "isbn": "9783458342779"
+    }
+  ]
+}

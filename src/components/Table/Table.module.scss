@@ -1,0 +1,44 @@
+.wrapper {
+  padding: 50px 0;
+  overflow: auto;
+}
+
+.table {
+  min-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  border-spacing: 0px;
+  border-collapse: collapse;
+  color: #fff;
+
+  @media (max-width: 767px) {
+    min-width: 600px;
+  }
+
+  &__head {
+    th{
+      text-align: left;
+      background-color: #55608f;
+      padding: 15px 10px;
+      color: #fff;
+    }
+  }
+
+  &__body {
+    tr {
+      text-align: center;
+      &:hover {
+        background-color: rgba(255,255,255,0.3);
+      }
+    }
+  }
+}
+
+.btn_add {
+  display: inline-block;
+  padding: 12px 18px;
+  margin: 20px 0;
+  color: white !important;
+  background-color: rgba(0,0,128,0.05);
+}

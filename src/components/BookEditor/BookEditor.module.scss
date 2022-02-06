@@ -1,0 +1,37 @@
+.form{
+  padding: 20px 0;
+    color:rgba(255, 255, 255, 0.9);;
+    max-width: 400px;
+    margin: 0 auto;
+
+    label {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        input, select{
+            width: 100%;
+            color: rgba(95, 44, 130, 0.7);
+            outline-color: rgb(95, 44, 130);
+            padding: 5px 10px;
+            
+            option {
+              color: rgba(95, 44, 130, 0.7);
+            }
+        }
+    }
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  &__cancel, &__submit {
+    display: inline-block;
+    padding: 12px 18px;
+    margin: 20px 0;
+    color: white !important;
+    background-color: rgba(0,0,128,0.05);
+    border: none; 
+  }
+}
+
+

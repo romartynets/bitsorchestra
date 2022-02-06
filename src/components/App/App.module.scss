@@ -1,0 +1,23 @@
+body{
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+}
+
+.wrapper{
+  min-height: 100vh;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+
+  @media (max-width:1199px) {
+    max-width: 960px;
+  }
+
+  @media (max-width:991px) {
+    max-width: 730px;
+  }
+  
+  @media (max-width:767px) {
+    max-width: 100%;
+  }
+}
